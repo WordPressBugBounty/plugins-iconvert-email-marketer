@@ -1,0 +1,54 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "extendstudio/divider",
+  "title": "Divider",
+  "category": "iconvertem-mail-elements",
+  "description": "A block for divider.",
+  "textdomain": "default",
+  "attributes": {
+    "_style": {
+      "type": "object",
+      "default": {
+        "width": {
+          "value": 100,
+          "unit": "%"
+        },
+        "border": {
+          "top": {
+            "color": "#007CBA",
+            "style": "solid",
+            "width": {
+              "value": 2,
+              "unit": "px"
+            }
+          }
+        }
+      }
+    },
+    "_styleBlock": {
+      "type": "object",
+      "default": {
+        "padding": {
+          "top": {
+            "value": 15,
+            "unit": "px"
+          },
+          "left": {
+            "value": 10,
+            "unit": "px"
+          },
+          "right": {
+            "value": 10,
+            "unit": "px"
+          },
+          "bottom": {
+            "value": 15,
+            "unit": "px"
+          }
+        },
+        "textAlign": "center"
+      }
+    }
+  }
+}

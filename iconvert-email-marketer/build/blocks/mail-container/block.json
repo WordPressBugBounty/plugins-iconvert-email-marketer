@@ -1,0 +1,55 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "extendstudio/mail-container",
+  "title": "Mail Container",
+  "category": "iconvertem-mail-elements",
+  "description": "Is the mail container",
+  "textdomain": "default",
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "maxWidth": {
+      "type": "object",
+      "default": {
+        "value": 600,
+        "unit": "px"
+      }
+    },
+    "_style": {
+      "type": "object",
+      "default": {
+        "color": "black",
+        "background": "",
+        "typography": {
+          "weight": null,
+          "family": null,
+          "transform": null,
+          "style": null,
+          "decoration": null,
+          "lineHeight": {
+            "value": null,
+            "unit": ""
+          },
+          "letterSpacing": {
+            "value": null,
+            "unit": "px"
+          },
+          "size": {
+            "value": null,
+            "unit": "px"
+          },
+          "color": null
+        }
+      }
+    },
+    "_styleBlock": {
+      "type": "object",
+      "default": {
+        "background": "",
+        "localImage": true
+      }
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "extendstudio/cell",
+  "title": "Column",
+  "category": "iconvertem-mail-elements",
+  "parent": [
+    "extendstudio/row"
+  ],
+  "description": "A single column within a columns block.",
+  "textdomain": "default",
+  "attributes": {
+    "verticalAlignment": {
+      "type": "string"
+    },
+    "width": {
+      "type": "string"
+    },
+    "allowedBlocks": {
+      "type": "array"
+    },
+    "templateLock": {
+      "type": [
+        "string",
+        "boolean"
+      ],
+      "enum": [
+        "all",
+        "insert",
+        false
+      ]
+    },
+    "_style": {
+      "type": "object",
+      "default": {
+        "color": "black",
+        "padding": {
+          "top": {
+            "value": 10,
+            "unit": "px"
+          },
+          "left": {
+            "value": 10,
+            "unit": "px"
+          },
+          "right": {
+            "value": 10,
+            "unit": "px"
+          },
+          "bottom": {
+            "value": 10,
+            "unit": "px"
+          }
+        },
+        "background": "",
+        "border": {
+          "top": {
+            "color": "#000000",
+            "style": "none",
+            "width": {
+              "value": 1,
+              "unit": "px"
+            }
+          },
+          "right": {
+            "color": "#000000",
+            "style": "none",
+            "width": {
+              "value": 1,
+              "unit": "px"
+            }
+          },
+          "bottom": {
+            "color": "#000000",
+            "style": "none",
+            "width": {
+              "value": 1,
+              "unit": "px"
+            }
+          },
+          "left": {
+            "color": "#000000",
+            "style": "none",
+            "width": {
+              "value": 1,
+              "unit": "px"
+            }
+          }
+        },
+        "typography": {
+          "weight": null,
+          "family": null,
+          "transform": null,
+          "style": null,
+          "decoration": null,
+          "lineHeight": {
+            "value": null,
+            "unit": ""
+          },
+          "letterSpacing": {
+            "value": null,
+            "unit": "px"
+          },
+          "size": {
+            "value": null,
+            "unit": "px"
+          },
+          "color": null
+        },
+        "textAlign": "center",
+        "verticalAlign": "top"
+      }
+    }
+  }
+}

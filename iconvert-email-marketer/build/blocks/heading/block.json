@@ -1,0 +1,87 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "extendstudio/heading",
+  "title": "Heading",
+  "category": "iconvertem-mail-elements",
+  "description": "A block for heading.",
+  "textdomain": "default",
+  "attributes": {
+    "content": {
+      "type": "string",
+      "default": "My heading is awesome",
+      "__experimentalRole": "content"
+    },
+    "level": {
+      "type": "string",
+      "default": "1"
+    },
+    "_style": {
+      "type": "object",
+      "default": {
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "px"
+          },
+          "left": {
+            "value": 0,
+            "unit": "px"
+          },
+          "right": {
+            "value": 0,
+            "unit": "px"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "typography": {
+          "weight": null,
+          "family": null,
+          "transform": null,
+          "style": null,
+          "decoration": null,
+          "lineHeight": {
+            "value": null,
+            "unit": ""
+          },
+          "letterSpacing": {
+            "value": null,
+            "unit": "px"
+          },
+          "size": {
+            "value": null,
+            "unit": "px"
+          },
+          "color": null
+        },
+        "textAlign": "left"
+      }
+    },
+    "_styleBlock": {
+      "type": "object",
+      "default": {
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "px"
+          },
+          "left": {
+            "value": 0,
+            "unit": "px"
+          },
+          "right": {
+            "value": 0,
+            "unit": "px"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "px"
+          }
+        }
+      }
+    }
+  }
+}

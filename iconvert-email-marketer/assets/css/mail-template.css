@@ -1,0 +1,76 @@
+* {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+		Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #000000;
+}
+
+a[x-apple-data-detectors] {
+	color: inherit !important;
+	text-decoration: inherit !important;
+}
+
+p {
+	line-height: normal;
+}
+
+.desktop_hide,
+.desktop_hide table {
+	mso-hide: all;
+	display: none;
+	max-height: 0;
+	overflow: hidden;
+}
+
+@media (max-width: 700px) {
+	.desktop_hide table.icons-inner {
+		display: inline-block !important;
+	}
+	.icons-inner {
+		text-align: center;
+	}
+	.icons-inner td {
+		margin: 0 auto;
+	}
+	.fullMobileWidth,
+	.image_block img.big,
+	.row-content {
+		width: 100% !important;
+	}
+	.mobile_hide {
+		display: none;
+	}
+
+	.row-content.stack .wp-block-extendstudio-cell {
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+	.mobile_hide {
+		min-height: 0;
+		max-height: 0;
+		max-width: 0;
+		overflow: hidden;
+		font-size: 0;
+	}
+	.desktop_hide,
+	.desktop_hide table {
+		display: table !important;
+		max-height: none !important;
+	}
+	.reverse {
+		display: table;
+		width: 100%;
+	}
+	.reverse .column.last {
+		display: table-header-group !important;
+	}
+}
+
+.button_block a {
+	color: inherit;
+}

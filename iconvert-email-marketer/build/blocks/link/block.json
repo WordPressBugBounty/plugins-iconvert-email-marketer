@@ -1,0 +1,140 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "extendstudio/link",
+  "title": "Link",
+  "category": "iconvertem-mail-elements",
+  "description": "A block for link.",
+  "textdomain": "default",
+  "attributes": {
+    "content": {
+      "type": "string",
+      "default": ""
+    },
+    "link": {
+      "type": "string",
+      "default": ""
+    },
+    "_style": {
+      "type": "object",
+      "default": {
+        "width": "auto",
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "px"
+          },
+          "left": {
+            "value": 0,
+            "unit": "px"
+          },
+          "right": {
+            "value": 0,
+            "unit": "px"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "typography": {
+          "weight": null,
+          "family": null,
+          "transform": null,
+          "style": null,
+          "decoration": null,
+          "lineHeight": {
+            "value": null,
+            "unit": ""
+          },
+          "letterSpacing": {
+            "value": null,
+            "unit": "px"
+          },
+          "size": {
+            "value": null,
+            "unit": "px"
+          },
+          "color": null
+        },
+        "background": "",
+        "border": {
+          "top": {
+            "width": {
+              "value": 1,
+              "unit": "px"
+            },
+            "color": "#000000",
+            "style": "none"
+          },
+          "bottom": {
+            "width": {
+              "value": 1,
+              "unit": "px"
+            },
+            "color": "#000000",
+            "style": "none"
+          },
+          "left": {
+            "width": {
+              "value": 1,
+              "unit": "px"
+            },
+            "color": "#000000",
+            "style": "none"
+          },
+          "right": {
+            "width": {
+              "value": 1,
+              "unit": "px"
+            },
+            "color": "#000000",
+            "style": "none"
+          }
+        },
+        "borderRadius": {
+          "top": {
+            "value": 0,
+            "unit": "px"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "px"
+          },
+          "left": {
+            "value": 0,
+            "unit": "px"
+          },
+          "right": {
+            "value": 0,
+            "unit": "px"
+          }
+        }
+      }
+    },
+    "_styleBlock": {
+      "type": "object",
+      "default": {
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "px"
+          },
+          "left": {
+            "value": 0,
+            "unit": "px"
+          },
+          "right": {
+            "value": 0,
+            "unit": "px"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "textAlign": "center"
+      }
+    }
+  }
+}

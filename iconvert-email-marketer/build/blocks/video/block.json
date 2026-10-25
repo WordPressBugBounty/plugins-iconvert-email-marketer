@@ -1,0 +1,98 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "extendstudio/video",
+  "title": "Video",
+  "category": "iconvertem-mail-elements",
+  "description": "A block for video.",
+  "textdomain": "default",
+  "attributes": {
+    "playType": {
+      "type": "string",
+      "default": "rectangle-fill"
+    },
+    "imageWidth": {
+      "type": "integer"
+    },
+    "imageHeight": {
+      "type": "integer"
+    },
+    "playSize": {
+      "type": "string",
+      "default": "medium"
+    },
+    "playColor": {
+      "type": "string",
+      "default": "red"
+    },
+    "videoUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "imageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "localImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "_style": {
+      "type": "object",
+      "default": {
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "px"
+          },
+          "left": {
+            "value": 0,
+            "unit": "px"
+          },
+          "right": {
+            "value": 0,
+            "unit": "px"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "border": {
+          "top": {
+            "width": {
+              "value": 1,
+              "unit": "px"
+            },
+            "color": "#000000",
+            "style": "none"
+          },
+          "bottom": {
+            "width": {
+              "value": 1,
+              "unit": "px"
+            },
+            "color": "#000000",
+            "style": "none"
+          },
+          "left": {
+            "width": {
+              "value": 1,
+              "unit": "px"
+            },
+            "color": "#000000",
+            "style": "none"
+          },
+          "right": {
+            "width": {
+              "value": 1,
+              "unit": "px"
+            },
+            "color": "#000000",
+            "style": "none"
+          }
+        }
+      }
+    }
+  }
+}

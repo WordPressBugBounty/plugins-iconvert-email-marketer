@@ -1,0 +1,39 @@
+{
+	"emailProvidersSettings": {
+		"props": {
+			"fromName": "",
+			"fromEmail": "",
+			"selectedProvider": "",
+			"optionsByProvider": {
+				"smtp": {
+					"host": "",
+					"port": "",
+					"username": "",
+					"password": "",
+					"encryption": "none"
+				},
+				"campaignMonitor": {
+					"apiKey": "",
+					"clientId": ""
+				},
+				"sendInBlue": {
+					"apiKey": ""
+				},
+				"mailJet": {
+					"secretKey": "",
+					"apiKey": ""
+				},
+				"mooSend": {
+					"apiKey": ""
+				},
+				"getResponse": {
+					"apiKey": ""
+				},
+				"sendGrid": {
+					"apiKey": ""
+				}
+			}
+		},
+		"style": {}
+	}
+}

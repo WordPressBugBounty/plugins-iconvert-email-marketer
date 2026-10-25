@@ -1,0 +1,84 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "extendstudio/text",
+  "title": "Text",
+  "category": "iconvertem-mail-elements",
+  "description": "A block for text.",
+  "textdomain": "default",
+  "attributes": {
+    "content": {
+      "type": "string",
+      "default": "<b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    "_style": {
+      "type": "object",
+      "default": {
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "px"
+          },
+          "left": {
+            "value": 0,
+            "unit": "px"
+          },
+          "right": {
+            "value": 0,
+            "unit": "px"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "typography": {
+          "weight": null,
+          "family": null,
+          "transform": null,
+          "style": null,
+          "decoration": null,
+          "lineHeight": {
+            "value": null,
+            "unit": ""
+          },
+          "letterSpacing": {
+            "value": null,
+            "unit": "px"
+          },
+          "size": {
+            "value": null,
+            "unit": "px"
+          },
+          "color": null
+        },
+        "linkColor": "#ff0000",
+        "textAlign": "left"
+      }
+    },
+    "_styleBlock": {
+      "type": "object",
+      "default": {
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "px"
+          },
+          "left": {
+            "value": 0,
+            "unit": "px"
+          },
+          "right": {
+            "value": 0,
+            "unit": "px"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "textAlign": "left"
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "extendstudio/html",
+  "title": "Custom HTML",
+  "category": "iconvertem-mail-elements",
+  "description": "Add custom HTML code and preview it as you edit.",
+  "keywords": [
+    "embed"
+  ],
+  "textdomain": "default",
+  "attributes": {
+    "content": {
+      "type": "string",
+      "source": "html"
+    }
+  },
+  "editorStyle": "wp-block-html-editor"
+}

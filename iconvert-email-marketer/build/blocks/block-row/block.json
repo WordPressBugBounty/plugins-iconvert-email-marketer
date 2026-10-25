@@ -1,0 +1,105 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "extendstudio/row",
+  "title": "Row",
+  "parent": [
+    "extendstudio/mail-container"
+  ],
+  "category": "iconvertem-mail-elements",
+  "description": "Display content in multiple rows, with blocks added to each cell.",
+  "textdomain": "default",
+  "attributes": {
+    "verticalAlignment": {
+      "type": "string"
+    },
+    "isStackedOnMobile": {
+      "type": "boolean",
+      "default": true
+    },
+    "maxWidth": {
+      "type": "object",
+      "default": {
+        "value": 600,
+        "unit": "px"
+      }
+    },
+    "_style": {
+      "type": "object",
+      "default": {
+        "color": "black",
+        "background": "",
+        "border": {
+          "top": {
+            "width": {
+              "value": 1,
+              "unit": "px"
+            },
+            "color": "#000000",
+            "style": "none"
+          },
+          "bottom": {
+            "width": {
+              "value": 1,
+              "unit": "px"
+            },
+            "color": "#000000",
+            "style": "none"
+          },
+          "left": {
+            "width": {
+              "value": 1,
+              "unit": "px"
+            },
+            "color": "#000000",
+            "style": "none"
+          },
+          "right": {
+            "width": {
+              "value": 1,
+              "unit": "px"
+            },
+            "color": "#000000",
+            "style": "none"
+          }
+        },
+        "typography": {
+          "weight": null,
+          "family": null,
+          "transform": null,
+          "style": null,
+          "decoration": null,
+          "lineHeight": {
+            "value": null,
+            "unit": ""
+          },
+          "letterSpacing": {
+            "value": null,
+            "unit": "px"
+          },
+          "size": {
+            "value": null,
+            "unit": "px"
+          },
+          "color": null
+        },
+        "verticalAlign": "top"
+      }
+    },
+    "_styleBlock": {
+      "type": "object",
+      "default": {
+        "background": "",
+        "localImage": true
+      }
+    }
+  },
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "editorStyle": "wp-block-row-editor",
+  "style": "wp-block-row"
+}

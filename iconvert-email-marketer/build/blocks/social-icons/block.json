@@ -1,0 +1,85 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "extendstudio/social-icons",
+  "title": "Social icons",
+  "category": "iconvertem-mail-elements",
+  "description": "A block for social icons.",
+  "textdomain": "default",
+  "attributes": {
+    "iconsColor": {
+      "type": "string",
+      "default": "color"
+    },
+    "icons": {
+      "type": "array",
+      "default": [
+        {
+          "type": "facebook",
+          "title": "Facebook",
+          "link": ""
+        },
+        {
+          "type": "youtube",
+          "title": "Youtube",
+          "link": ""
+        }
+      ]
+    },
+    "sizeIcons": {
+      "type": "object",
+      "default": {
+        "value": 50,
+        "unit": "px"
+      }
+    },
+    "_style": {
+      "type": "object",
+      "default": {
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "px"
+          },
+          "left": {
+            "value": 5,
+            "unit": "px"
+          },
+          "right": {
+            "value": 5,
+            "unit": "px"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "margin": 0
+      }
+    },
+    "_styleBlock": {
+      "type": "object",
+      "default": {
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "px"
+          },
+          "left": {
+            "value": 0,
+            "unit": "px"
+          },
+          "right": {
+            "value": 0,
+            "unit": "px"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "textAlign": "left"
+      }
+    }
+  }
+}

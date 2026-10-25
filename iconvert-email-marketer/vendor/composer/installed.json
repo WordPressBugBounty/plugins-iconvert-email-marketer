@@ -1,0 +1,493 @@
+[
+    {
+        "name": "pragmarx/ia-arr",
+        "version": "v7.3.3",
+        "version_normalized": "7.3.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/antonioribeiro/ia-arr.git",
+            "reference": "6f4303c25cc1a79a55044ca413e0a0d757628fab"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/antonioribeiro/ia-arr/zipball/6f4303c25cc1a79a55044ca413e0a0d757628fab",
+            "reference": "6f4303c25cc1a79a55044ca413e0a0d757628fab",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0",
+            "symfony/var-dumper": "~3.3|~4.0|~5.0|~6.0|~7.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "~1.0",
+            "nesbot/carbon": "^1.26 || ^2.00",
+            "phpunit/phpunit": "~6.0|~7.0|~8.0|~9.0",
+            "squizlabs/php_codesniffer": "^2.3"
+        },
+        "suggest": {
+            "nesbot/carbon": "Required to use Carbon datetime."
+        },
+        "time": "2024-10-05T19:56:41+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/Support/helpers.php",
+                "src/Support/alias.php"
+            ],
+            "psr-4": {
+                "IlluminateAgnostic\\Arr\\": "src/",
+                "IlluminateAgnostic\\Arr\\Tests\\": "tests/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Antonio Carlos Ribeiro",
+                "email": "acr@antoniocarlosribeiro.com",
+                "homepage": "https://antoniocarlosribeiro.com",
+                "role": "Creator"
+            }
+        ],
+        "description": "Laravel Illuminate Agnostic Arr",
+        "homepage": "https://github.com/antonioribeiro/ia-arr",
+        "keywords": [
+            "arr",
+            "array",
+            "helpers",
+            "laravel",
+            "pragmarx"
+        ],
+        "support": {
+            "issues": "https://github.com/antonioribeiro/ia-arr/issues",
+            "source": "https://github.com/antonioribeiro/ia-arr/tree/v7.3.3"
+        }
+    },
+    {
+        "name": "pragmarx/ia-str",
+        "version": "v7.3.1",
+        "version_normalized": "7.3.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/antonioribeiro/ia-str.git",
+            "reference": "ce022c92a972bee66e1d54f32a604b0ee19e6488"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/antonioribeiro/ia-str/zipball/ce022c92a972bee66e1d54f32a604b0ee19e6488",
+            "reference": "ce022c92a972bee66e1d54f32a604b0ee19e6488",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0",
+            "voku/portable-ascii": "^1.4|^2.0"
+        },
+        "require-dev": {
+            "doctrine/inflector": "^1.2",
+            "mockery/mockery": "~1.0",
+            "moontoast/math": "^1.1",
+            "nesbot/carbon": "^1.26 || ^2.00",
+            "phpunit/phpunit": "~6.0|~7.0|~8.0|~9.0",
+            "ramsey/uuid": "^3.7|^4.0",
+            "squizlabs/php_codesniffer": "^2.3",
+            "symfony/var-dumper": "~3.3|~4.0|~5.0|^6.0"
+        },
+        "suggest": {
+            "doctrine/inflector": "",
+            "nesbot/carbon": "",
+            "ramsey/uuid": "",
+            "symfony/var-dumper": ""
+        },
+        "time": "2022-09-07T10:27:55+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/Support/helpers.php",
+                "src/Support/alias.php"
+            ],
+            "psr-4": {
+                "IlluminateAgnostic\\Str\\": "src/",
+                "IlluminateAgnostic\\Str\\Tests\\": "tests/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Antonio Carlos Ribeiro",
+                "email": "acr@antoniocarlosribeiro.com",
+                "homepage": "https://antoniocarlosribeiro.com",
+                "role": "Creator"
+            }
+        ],
+        "description": "Laravel Illuminate Agnostic Str",
+        "homepage": "https://github.com/antonioribeiro/ia-str",
+        "keywords": [
+            "helpers",
+            "laravel",
+            "pragmarx",
+            "str",
+            "string"
+        ],
+        "support": {
+            "issues": "https://github.com/antonioribeiro/ia-str/issues",
+            "source": "https://github.com/antonioribeiro/ia-str/tree/v7.3.1"
+        }
+    },
+    {
+        "name": "symfony/polyfill-mbstring",
+        "version": "v1.37.0",
+        "version_normalized": "1.37.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-mbstring.git",
+            "reference": "6a21eb99c6973357967f6ce3708cd55a6bec6315"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/6a21eb99c6973357967f6ce3708cd55a6bec6315",
+            "reference": "6a21eb99c6973357967f6ce3708cd55a6bec6315",
+            "shasum": ""
+        },
+        "require": {
+            "ext-iconv": "*",
+            "php": ">=7.2"
+        },
+        "provide": {
+            "ext-mbstring": "*"
+        },
+        "suggest": {
+            "ext-mbstring": "For best performance"
+        },
+        "time": "2026-04-10T17:25:58+00:00",
+        "type": "library",
+        "extra": {
+            "thanks": {
+                "url": "https://github.com/symfony/polyfill",
+                "name": "symfony/polyfill"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "bootstrap.php"
+            ],
+            "psr-4": {
+                "Symfony\\Polyfill\\Mbstring\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for the Mbstring extension",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "mbstring",
+            "polyfill",
+            "portable",
+            "shim"
+        ],
+        "support": {
+            "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.37.0"
+        },
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://github.com/nicolas-grekas",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "symfony/polyfill-php80",
+        "version": "v1.37.0",
+        "version_normalized": "1.37.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-php80.git",
+            "reference": "dfb55726c3a76ea3b6459fcfda1ec2d80a682411"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/dfb55726c3a76ea3b6459fcfda1ec2d80a682411",
+            "reference": "dfb55726c3a76ea3b6459fcfda1ec2d80a682411",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.2"
+        },
+        "time": "2026-04-10T16:19:22+00:00",
+        "type": "library",
+        "extra": {
+            "thanks": {
+                "url": "https://github.com/symfony/polyfill",
+                "name": "symfony/polyfill"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "bootstrap.php"
+            ],
+            "psr-4": {
+                "Symfony\\Polyfill\\Php80\\": ""
+            },
+            "classmap": [
+                "Resources/stubs"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ion Bazan",
+                "email": "ion.bazan@gmail.com"
+            },
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill backporting some PHP 8.0+ features to lower PHP versions",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "polyfill",
+            "portable",
+            "shim"
+        ],
+        "support": {
+            "source": "https://github.com/symfony/polyfill-php80/tree/v1.37.0"
+        },
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://github.com/nicolas-grekas",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "symfony/var-dumper",
+        "version": "v5.4.48",
+        "version_normalized": "5.4.48.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/var-dumper.git",
+            "reference": "42f18f170aa86d612c3559cfb3bd11a375df32c8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/var-dumper/zipball/42f18f170aa86d612c3559cfb3bd11a375df32c8",
+            "reference": "42f18f170aa86d612c3559cfb3bd11a375df32c8",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.2.5",
+            "symfony/polyfill-mbstring": "~1.0",
+            "symfony/polyfill-php80": "^1.16"
+        },
+        "conflict": {
+            "symfony/console": "<4.4"
+        },
+        "require-dev": {
+            "ext-iconv": "*",
+            "symfony/console": "^4.4|^5.0|^6.0",
+            "symfony/http-kernel": "^4.4|^5.0|^6.0",
+            "symfony/process": "^4.4|^5.0|^6.0",
+            "symfony/uid": "^5.1|^6.0",
+            "twig/twig": "^2.13|^3.0.4"
+        },
+        "suggest": {
+            "ext-iconv": "To convert non-UTF-8 strings to UTF-8 (or symfony/polyfill-iconv in case ext-iconv cannot be used).",
+            "ext-intl": "To show region name in time zone dump",
+            "symfony/console": "To use the ServerDumpCommand and/or the bin/var-dump-server script"
+        },
+        "time": "2024-11-08T15:21:10+00:00",
+        "bin": [
+            "Resources/bin/var-dump-server"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "Resources/functions/dump.php"
+            ],
+            "psr-4": {
+                "Symfony\\Component\\VarDumper\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Provides mechanisms for walking through any arbitrary PHP variable",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "debug",
+            "dump"
+        ],
+        "support": {
+            "source": "https://github.com/symfony/var-dumper/tree/v5.4.48"
+        },
+        "funding": [
+            {
+                "url": "https://symfony.com/sponsor",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/fabpot",
+                "type": "github"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                "type": "tidelift"
+            }
+        ]
+    },
+    {
+        "name": "voku/portable-ascii",
+        "version": "2.1.1",
+        "version_normalized": "2.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/voku/portable-ascii.git",
+            "reference": "8e1051fe39379367aecf014f41744ce7539a856f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/voku/portable-ascii/zipball/8e1051fe39379367aecf014f41744ce7539a856f",
+            "reference": "8e1051fe39379367aecf014f41744ce7539a856f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.1.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~8.5 || ~9.6 || ~10.5 || ~11.5"
+        },
+        "suggest": {
+            "ext-intl": "Use Intl for transliterator_transliterate() support"
+        },
+        "time": "2026-04-26T05:33:54+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "voku\\": "src/voku/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Lars Moelleken",
+                "homepage": "https://www.moelleken.org/"
+            }
+        ],
+        "description": "Portable ASCII library - performance optimized (ascii) string functions for php.",
+        "homepage": "https://github.com/voku/portable-ascii",
+        "keywords": [
+            "ascii",
+            "clean",
+            "php"
+        ],
+        "support": {
+            "issues": "https://github.com/voku/portable-ascii/issues",
+            "source": "https://github.com/voku/portable-ascii/tree/2.1.1"
+        },
+        "funding": [
+            {
+                "url": "https://www.paypal.me/moelleken",
+                "type": "custom"
+            },
+            {
+                "url": "https://github.com/voku",
+                "type": "github"
+            },
+            {
+                "url": "https://opencollective.com/portable-ascii",
+                "type": "open_collective"
+            },
+            {
+                "url": "https://www.patreon.com/voku",
+                "type": "patreon"
+            },
+            {
+                "url": "https://tidelift.com/funding/github/packagist/voku/portable-ascii",
+                "type": "tidelift"
+            }
+        ]
+    }
+]

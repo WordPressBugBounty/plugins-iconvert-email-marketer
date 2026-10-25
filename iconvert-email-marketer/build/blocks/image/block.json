@@ -1,0 +1,108 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "extendstudio/image",
+  "title": "Image",
+  "category": "iconvertem-mail-elements",
+  "description": "A block for image.",
+  "textdomain": "default",
+  "attributes": {
+    "imageUrl": {
+      "type": "string",
+      "default": ""
+    },
+    "imageLink": {
+      "type": "string",
+      "default": ""
+    },
+    "localImage": {
+      "type": "boolean",
+      "default": true
+    },
+    "_style": {
+      "type": "object",
+      "default": {
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "px"
+          },
+          "left": {
+            "value": 0,
+            "unit": "px"
+          },
+          "right": {
+            "value": 0,
+            "unit": "px"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "border": {
+          "top": {
+            "width": {
+              "value": 1,
+              "unit": "px"
+            },
+            "color": "#000000",
+            "style": "none"
+          },
+          "bottom": {
+            "width": {
+              "value": 1,
+              "unit": "px"
+            },
+            "color": "#000000",
+            "style": "none"
+          },
+          "left": {
+            "width": {
+              "value": 1,
+              "unit": "px"
+            },
+            "color": "#000000",
+            "style": "none"
+          },
+          "right": {
+            "width": {
+              "value": 1,
+              "unit": "px"
+            },
+            "color": "#000000",
+            "style": "none"
+          }
+        },
+        "width": {
+          "value": 600,
+          "unit": "px"
+        }
+      }
+    },
+    "_styleBlock": {
+      "type": "object",
+      "default": {
+        "padding": {
+          "top": {
+            "value": 0,
+            "unit": "px"
+          },
+          "left": {
+            "value": 0,
+            "unit": "px"
+          },
+          "right": {
+            "value": 0,
+            "unit": "px"
+          },
+          "bottom": {
+            "value": 0,
+            "unit": "px"
+          }
+        },
+        "textAlign": "center"
+      }
+    }
+  }
+}
